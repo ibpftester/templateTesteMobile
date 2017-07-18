@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15097" started-at="2017-06-25T17:30:17Z" finished-at="2017-06-25T17:30:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15097" started-at="2017-06-25T17:30:17Z" finished-at="2017-06-25T17:30:32Z">
+      <class name="BasicTestWD">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:BasicTestWD@25b2fe]" name="instantiateDriverObject" is-config="true" duration-ms="12" started-at="2017-06-25T14:30:17Z" finished-at="2017-06-25T14:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateDriverObject -->
+        <test-method status="PASS" signature="googleCheeseExample()[pri:0, instance:BasicTestWD@25b2fe]" name="googleCheeseExample" duration-ms="6477" started-at="2017-06-25T14:30:17Z" finished-at="2017-06-25T14:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleCheeseExample -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:BasicTestWD@25b2fe]" name="quitDriver" is-config="true" duration-ms="1634" started-at="2017-06-25T14:30:24Z" finished-at="2017-06-25T14:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="googleMilkExample()[pri:0, instance:BasicTestWD@25b2fe]" name="googleMilkExample" duration-ms="5610" started-at="2017-06-25T14:30:25Z" finished-at="2017-06-25T14:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleMilkExample -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:BasicTestWD@25b2fe]" name="quitDriver" is-config="true" duration-ms="1335" started-at="2017-06-25T14:30:31Z" finished-at="2017-06-25T14:30:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- BasicTestWD -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
