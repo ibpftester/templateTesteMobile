@@ -1,0 +1,34 @@
+# Inicial
+URLSpecific=http://172.16.40.169:9080/sgag/
+Tempo_Load_URLSpecific=10
+Tempo_EsperaSpecific=5
+Path_TestDataSpecific=C:/TFCBASE/ExportacaoJarSGAG/DataEngine.xlsx
+Path_ORSpecific=C://TFCBASE/ExportacaoJarSGAG/OR.txt
+OptionDefaultMDSelectSpecific=Selecione 
+
+# Login Dados
+user=teste
+passw=teste
+
+# Tela1 Page Objects
+txtbx_Usuario=//*[@id="username"]
+txtbx_Senha=//*[@id="password"]
+btn_Entrar=/html/body/div/md-content/div/form/md-card/section/button[1]/span
+msg_LoginInvalido=/html/body/md-toast/div/span
+
+# Tela2 Page Objects
+icon_Menu=/html/body/md-content/div/md-toolbar/div/section/button/md-icon
+icon_Aplicacoes=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Aplicações')]
+icon_Topico=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Tópico')]
+icon_Idioma=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Idioma')]
+icon_FilaMensagens=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Fila de Mensagens')]
+icon_TemplateMensagens=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Template de Mensagens')]
+icon_AprovacoesPendentes=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Aprovações')]
+icon_ConsultaMensagens=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Consulta de Mensagens')]
+icon_ConsultaUsuarios=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Consulta de Usuários')]
+icon_EnviarMensagemPush=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Enviar Mensagem PUSH')]
+icon_DownloadLog=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Download Log')]
+icon_AlterarSenha=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Alterar Senha')]
+icon_Usuarios=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Usuários')]
+icon_Sair=//md-content/md-content/div/div/md-sidenav/md-content/md-list/md-list-item[contains(.,'Sair')]
+lbl_grdQtdeRegistros=//*[@id="content"]/div/form/md-content/div/md-card[2]/md-card-content/md-table-pagination/div[2]/div
