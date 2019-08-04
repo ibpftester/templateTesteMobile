@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<parameters>
+	<!-- <url>http://172.16.42.153:8080/push-services-web</url> -->
+	<url>http://hml2.autoline.com.br</url>
+	<timeloadurl>5</timeloadurl>
+	<repeaterror>S</repeaterror>
+	<closebrowsererror>S</closebrowsererror>
+	<stoptestserror>N</stoptestserror>
+ 	<pathtestdata>C:\TFCBASE\ExportacaoJarSGAG</pathtestdata>
+	<pathor>C:\TFCBASE\ExportacaoJarSGAG</pathor>
+	<pathdrivers>C:\</pathdrivers>
+	<pathlog>C:\TFCBASE\ExportacaoJarSGAG</pathlog>
+	<optiondftmdselect>Selecione</optiondftmdselect>
+	<userB></userB>
+	<passwordB></passwordB>
+</parameters>
